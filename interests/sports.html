@@ -1,15 +1,42 @@
-
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>
             SPORTS
         </title>
-        <h>My Sporting life</h>
-        <p>I have a busy sporting scheduele with a high level of interest in many different activities.I currently play Gaelic football , Swim with Dolphin Swimming club and I am a member of Montenotte Leuire and Fitness club</p>
-
-        <h>My Training Scheduele</h>
-        <p>I attend training with my Gaelic team twice a week and attend matches once weekly. I meet with my swim team twice weekly also and we engage in swimming competitions once monthly. I ensure I fit the gym into my scheduele at least once a week to maintain a good routine.</p>
-          
+        <!--applying pagepiling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+        <link rel="stylesheet" href="Sportstyle.css" type="text/css" />
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+            	$('#pagepiling').pagepiling();
+            });
+        </script>
+        
+    </head>
+    <body>
+        
+        <div id="pagepiling">
+        	<div class="section" id="section1s">
+        	    <img src="/interests/images/jogging.jpg" />
+        	My Sports Life
+        	</div>
+        
+    
+        	<div class="section" id="section2s"> <h4>My Gym Routine</h4><p>My ideal method of keeping fit is maintaining a structured Gym scheduele. I am a member of my local health and fitness club where I exercise 3 times per week.</div>
+        	<div class="section" id="section3s"><h4>My Team Sports</h4><p> I play Gaelic football with Erins Own Gaelic and Hurling club. My teammates and I train once weekly and I play in matches once monthly.</p></div>
+        	<div class="section"  id="section4">
+        	<a href="../homepage.html">Home</a>
+        	<br />
+        	<a href="cloud.html"><h4>About Cloud Computing</a>
+        	</div>
+        </div>
+        
     </body>
 </html>

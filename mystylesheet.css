@@ -1,6 +1,55 @@
+
+title{
+    Text-align:center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
 h1{
     text-align:center;
+     font-family: cursive;
+    font-weight: bold;
+    font-size: xx-large
 }
 background{
     background-color: rgb(247, 143, 238)
+    
+}
+#CV
+{ 
+    
+    font-family: serif;
+    background-color: pink;
+    padding-bottom:5px;
+    font: white;
+    display:inline-block;
+}
+
+#myInterests
+{
+    font-family: serif;
+    background-color: pink;
+    padding:5px;
+    font: white;
+    display:inline-block
+}
+
+#ebus1
+{
+    font-family: serif;
+    background-color: pink;
+    padding:5px;
+    font: white;
+    display:inline-block
+}
+
+#ebus2
+{
+    font-family: serif;
+    background-color: pink;
+    padding-bottom: 5px;
+    font: white;
+    display:inline-block
 }
