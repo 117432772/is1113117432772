@@ -1,29 +1,41 @@
 #section1{
-     background-image: url(/interests/images/map.jpg);
-    background-repeat: no-repeat;
+     background-image: url(http://gottakeepmovin.com/wp-content/uploads/2015/04/2015-04-28-09.03.59-3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
     text-align:center;
     font-family:serif;
     font-style: normal;
+    font-size: xx-large;
+    font-weight: 900;
+    color:rgb(20, 31, 31);
     
 }
 #section2{
-    background-color: rgb(51, 153, 204);
+    background-color: rgb(222, 57, 99);; /* Pink */
+     color: rgb(245, 189, 203);; /*Light Pink*/
      text-align:center;
     font-family:serif;
     font-style: normal;
 }
 
 #section3{
-     background-color: rgb(206, 167, 239);
+     background-color: rgb(71, 78, 93);; /*Dark Blue*/
+     color: rgb(245, 189, 203);; /*Light Pink*/
      text-align:center;
     font-family:serif;
     font-style: normal;
 }
 
 #section4{
-    background-color: rgb(238, 0, 90);
+    background-color: rgb(153, 163, 178);; /*Light Blue*/
+     color: rgb(245, 189, 203);; /*Light Pink*/
      text-align:center;
     font-family:serif;
     font-style: normal;
 
+}
+
+#section5{
+    background-color: rgb(255, 255, 255);
 }

@@ -1,32 +1,41 @@
-
 #section1s{
-    background-color: rgb(242, 242, 242);
+     background-image: url(https://media.istockphoto.com/photos/fitness-and-healthy-eating-concept-pink-sneakers-and-dumbbells-with-picture-id835138006?k=6&m=835138006&s=612x612&w=0&h=OSTKmPVHfJ9dJyMWPfZKO8_pf4camI1PW0X4-ZrS1jM=);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
     text-align:center;
     font-family:serif;
     font-style: normal;
+    font-size: xx-large;
+    font-weight: 900;
+    color:rgb(20, 31, 31);
     
 }
-
-
 #section2s{
-    background-color: rgb(51, 153, 204);
+    background-color: rgb(222, 57, 99);; /* Pink */
+     color: rgb(245, 189, 203);; /*Light Pink*/
      text-align:center;
     font-family:serif;
     font-style: normal;
 }
 
 #section3s{
-     background-color: rgb(206, 167, 239);
+     background-color: rgb(71, 78, 93);; /*Dark Blue*/
+     color: rgb(245, 189, 203);; /*Light Pink*/
      text-align:center;
     font-family:serif;
     font-style: normal;
 }
 
 #section4s{
-    background-color: rgb(238, 0, 90);
+    background-color: rgb(153, 163, 178);; /*Light Blue*/
+     color: rgb(245, 189, 203);; /*Light Pink*/
      text-align:center;
     font-family:serif;
     font-style: normal;
 
 }
 
+#section5s{
+    background-color: rgb(255, 255, 255);
+}
