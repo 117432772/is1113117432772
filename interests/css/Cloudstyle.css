@@ -1,0 +1,41 @@
+#section1c{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbP7Ku7fo8ug328r1nxxqeIOPz6SGWlxqG1_PzW4pU-3H7Eb27Q);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    text-align:center;
+    font-family:serif;
+    font-style: normal;
+    font-size: xx-large;
+    font-weight: 900;
+    color:rgb(20, 31, 31);
+    
+}
+#section2c{
+    background-color: rgb(222, 57, 99);; /* Pink */
+     color: rgb(245, 189, 203);; /*Light Pink*/
+     text-align:center;
+    font-family:serif;
+    font-style: normal;
+}
+
+#section3c{
+     background-color: rgb(71, 78, 93);; /*Dark Blue*/
+     color: rgb(245, 189, 203);; /*Light Pink*/
+     text-align:center;
+    font-family:serif;
+    font-style: normal;
+}
+
+#section4c{
+    background-color: rgb(153, 163, 178);; /*Light Blue*/
+     color: rgb(245, 189, 203);; /*Light Pink*/
+     text-align:center;
+    font-family:serif;
+    font-style: normal;
+
+}
+
+#section5c{
+    background-color: rgb(255, 255, 255);
+}
