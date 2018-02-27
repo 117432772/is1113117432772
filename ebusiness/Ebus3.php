@@ -16,13 +16,10 @@ session_start();
 <h1 style="background-color: rgb(245, 189, 203);; /*Light Pink*/;font-size:40px;text-align:center;font-family:georgia; margin:0; padding:0">IS1113 Project</h1>
 <style>
 body {
+    background-color:rgb(222, 57, 99);
     text-align:center;
 }
 
-body background {
-    color:rgb(222, 57, 99);
-    text-align:center;
-}
 ul {
     list-style-type: none;
     margin: 0;

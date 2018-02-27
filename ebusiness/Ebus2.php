@@ -17,13 +17,8 @@ session_start();
 <style>
 body {
     text-align:center;
+   background-color:rgb(222, 57, 99);
 }
-
-body background {
-    color:rgb(222, 57, 99);
-    text-align:center;
-}
-
 
 ul {
     list-style-type: none;
