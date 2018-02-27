@@ -12,7 +12,7 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body>
+    <body style="background-color:rgb(222, 57, 99);text-align:center;">
        <link rel="stylesheet" href="/mystylesheet.css" type="text/css" />
 <h1 style="background-color: rgb(245, 189, 203);; /*Light Pink*/;font-size:40px;text-align:center;font-family:georgia; margin:0; padding:0">IS1113 Project</h1>
 <style>
@@ -40,8 +40,7 @@ li a:hover {
     background-color: #111111;
 }
 </style>
- <body>
-     <body style="background-color:rgb(222, 57, 99);text-align:center;">
+     
 <ul>
   <li><a href="/homepage.html">Home</a></li>
   <li><a href="cv/page1.html">CV</a></li>
