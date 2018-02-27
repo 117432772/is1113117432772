@@ -21,29 +21,24 @@ function calcSub(){
     }
 
     display(argSubTotal);
-    calcDisVatTotal(argSubTotal);
+    calcDisVATTotal(argSubTotal);
 }
    
-   function calcDisVatTotal(parmSubTotal){
+   function calcDisVATTotal(parmSubTotal){
        
        var SubTotal;
        var discountAmt;
-       var vatAmt;
+       var VATAmt;
        var totalAmt;
        
        SubTotal = parmSubTotal;
+       VATAmt = SubTotal * 0.23;
+       discountAmt = (SubTotal + VATAmt) * 0.1;
+       totalAmt = (SubTotal + VATAmt) - discountAmt;
        
-       vatAmt = parmSubTotal * 0.23;
-       
-       discountAmt = (SubTotal + vatAmt) * 0.1;
-       
-       totalAmt = (SubTotal + vatAmt) - discountAmt;
-       
-       display(SubTotal, discountAmt, vatAmt, totalAmt);
+       display(SubTotal, discountAmt, VATAmt, totalAmt);
    }
-   
-   
-  
+
     function display(parm1, parm2, parm3, parm4){
         
         document.getElementById("subtotal").value = parm1;
