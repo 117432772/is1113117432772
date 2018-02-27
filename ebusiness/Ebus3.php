@@ -1,3 +1,7 @@
+<?php
+//Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -39,15 +43,24 @@ li a:hover {
  <body>
      <body style="background-color:rgb(222, 57, 99);text-align:center">
 <ul>
-  <li><a href="homepage.html">Home</a></li>
+   <li><a href="homepage.html">Home</a></li>
   <li><a href="cv/page1.html">CV</a></li>
   <li><a href="interests/sports.html">Interests</a></li>
+  <li><a href="/Aboutcloud.html">About Cloud</a></li>
   <li><a href="ebusiness/Ebus1.php">Products</a></li>
 </ul>
 
         <div id="receipt">
-            <h4>Receipt of Pyament</h4>
+             <h2 style="color:rgb(255, 255, 255); font-family=serif;">Here is your receipt</h2> 
          
-         
-         </div>   
+            <?php
+            //Echo session variables that were set on previous page
+            echo "Subtotal is " . $_SESSION["subtotal"]; ?>
+            <br/>
+           <?php echo "VAT is " . $_SESSION["vat"]; ?>
+            <br/>
+           <?php echo "Discount is " . $_SESSION["discount"]; ?>
+            <br/>
+            <?php echo "Total is " . $_SESSION["total"] . "."; ?>
+        </div>   
     </body>
