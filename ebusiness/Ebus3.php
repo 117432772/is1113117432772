@@ -39,7 +39,6 @@ li a:hover {
     background-color: #111111;
 }
 </style>
-</head>
  <body>
      <body style="background-color:rgb(222, 57, 99);text-align:center">
 <ul>
