@@ -18,7 +18,7 @@ session_start();
   <link rel="stylesheet" href="/mystylesheet.css" type="text/css" /> <!--referring to the style sheet for design purposes-->
 <h1 style="background-color: rgb(245, 189, 203);; /*Light Pink*/;font-size:40px;text-align:center;font-family:georgia; margin:0; padding:0">IS1113 Project</h1>
 <style>
-.body {
+body {
     text-align:center;
     background-color:rgb(222, 57, 99);
 }
