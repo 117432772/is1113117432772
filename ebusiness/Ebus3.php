@@ -1,5 +1,5 @@
 <?php
-//Start the session
+//Start the session <!--Starts the function in the form-->
 session_start();
 ?>
 <!DOCTYPE html>
@@ -8,14 +8,14 @@ session_start();
         <title>Receipt</title>
         
         <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
-         <link rel="stylesheet" href="/ebusiness/ebusstyle.css" type="text/css" />
+         <link rel="stylesheet" href="/ebusiness/ebusstyle.css" type="text/css" /> <!--refwers to the style sheet-->
         
     </head>
    
           <link rel="stylesheet" href="/mystylesheet.css" type="text/css" />
 <h1 style="background-color: rgb(245, 189, 203);; /*Light Pink*/;font-size:40px;text-align:center;font-family:georgia; margin:0; padding:0">IS1113 Project</h1>
 <style>
-body {
+.body {
     background-color:rgb(222, 57, 99);
     text-align:center;
 }
@@ -46,7 +46,7 @@ li a:hover {
 </style>
    <body> 
 <ul>
-   <li><a href="/homepage.html">Home</a></li>
+   <li><a href="/homepage.html">Home</a></li>  <!--creating navigation bar with links to all sections of the webpage-->
   <li><a href="cv/page1.html">CV</a></li>
   <li><a href="interests/sports.html">Interests</a></li>
   <li><a href="/Aboutcloud.html">About Cloud</a></li>
@@ -66,7 +66,6 @@ li a:hover {
             <br/>
             <?php echo "Total is " . $_SESSION["total"] . "."; ?>
         </div>   
-    </body>
      <footer>
        <br    />
         <a href="https://www.ucc.ie/">
@@ -74,4 +73,5 @@ li a:hover {
         </a>
         
     </footer>
+    </body>
     </html>

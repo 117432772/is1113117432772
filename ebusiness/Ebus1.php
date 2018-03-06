@@ -1,5 +1,5 @@
 <?php
-//Start the session
+//Start the session  <!--Starts the function in the form-->
 session_start();
 ?>
 <!DOCTYPE html>
@@ -15,10 +15,10 @@ session_start();
     
 </head>
 
-  <link rel="stylesheet" href="/mystylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="/mystylesheet.css" type="text/css" /> <!--referring to the style sheet for design purposes-->
 <h1 style="background-color: rgb(245, 189, 203);; /*Light Pink*/;font-size:40px;text-align:center;font-family:georgia; margin:0; padding:0">IS1113 Project</h1>
 <style>
-body {
+.body {
     text-align:center;
     background-color:rgb(222, 57, 99);
 }
@@ -51,7 +51,7 @@ li a:hover {
 </style>
      <body>
 <ul>
-  <li><a href="../homepage.html">Home</a></li>
+  <li><a href="../homepage.html">Home</a></li> <!--creating navigation bar with links to all sections of the webpage-->
   <li><a href="../cv/page1.html">CV</a></li>
   <li><a href="../interests/sports.html">Interests</a></li>
   <li><a href="/Aboutcloud.html">About Cloud</a></li>
@@ -138,7 +138,6 @@ li a:hover {
         
         <h3 style="color:white; font-family:georgia;">Thank you for shopping with us!</h3>
 
-</body>
  <footer>
         <br   />
         <a href="https://www.ucc.ie/">
@@ -146,5 +145,5 @@ li a:hover {
         </a>
         
     </footer>
-
+</body>
 </html>
