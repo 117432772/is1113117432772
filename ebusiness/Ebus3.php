@@ -8,7 +8,7 @@ session_start();
         <title>Receipt</title>
         
         <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
-         <link rel="stylesheet" href="/ebusiness/ebusstyle.css" type="text/css" /> <!--refwers to the style sheet-->
+         <link rel="stylesheet" href="/ebusiness/ebusstyle.css" type="text/css" /> <!--refers to the style sheet-->
         
     </head>
    
